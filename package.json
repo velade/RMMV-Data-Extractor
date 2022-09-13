@@ -1,0 +1,13 @@
+{
+    "name": "RMMV Data提取器",
+    "main": "www/index.html",
+    "js-flags": "--expose-gc",
+    "window": {
+        "title": "RMMV Data提取器",
+        "fullscreen": false,
+        "width": 800,
+        "height": 220,
+        "resizable": false,
+        "icon": "icon.png"
+    }
+}

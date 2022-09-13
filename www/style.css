@@ -1,0 +1,50 @@
+body {
+    background-color: #252533;
+    margin: 10px;
+}
+.steps {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.steps .step {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+.steps .step > .title {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+.steps .step > input {
+    display: block;
+    width: 180px;
+    height: 140px;
+    line-height: 140px;
+    color: white;
+    margin: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.steps .step > #get {
+    background-color:darkgreen;
+}
+.steps .step > #get:disabled {
+    font-weight: bold;
+    color: red;
+    background-color: lightgray;
+}
